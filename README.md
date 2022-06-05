@@ -8,17 +8,17 @@
 
 
 - First create a file with name 'private_keys.dart' in lib/Constants/ folder and place contract address, private key, rpc url adn web socket url as shown:
-String contractAddress = "0x5C27924B70F2Ae1252a5524feb1C81e2AC607C60";
-final privateKey = "your private key here";
-var url = "alchemy rpc url";
-var socketUrl = "alchemy web socket url";
+- String contractAddress = "0x5C27924B70F2Ae1252a5524feb1C81e2AC607C60";
+- final privateKey = "your private key here";
+- var url = "alchemy rpc url";
+- var socketUrl = "alchemy web socket url";
 
 
 - Try to use same variable name of as shown above to avoid syntax errors
 
 
 - Also check out the smart contract repo used in this app
-https://github.com/iWOLFSTEIN/File-Minting-Smart-Contract
+- https://github.com/iWOLFSTEIN/File-Minting-Smart-Contract
 
 
 - Give your feedback and suggestion to improve this app
