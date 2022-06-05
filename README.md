@@ -1,16 +1,22 @@
 # file_minting_app
 
-A new Flutter project.
+- To use this app you need to use your own Metamask wallet's private key, alchemy's rpc url (known as http url) and web socket url (select rinkeyby in alchemy and copy these urls)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+- The contract address is on rinkeby testnet and its address is
+0x5C27924B70F2Ae1252a5524feb1C81e2AC607C60
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- First create a file with name 'private_keys.dart' in lib/Constants/ folder and place contract address, private key, rpc url adn web socket url as shown:
+String contractAddress = "0x5C27924B70F2Ae1252a5524feb1C81e2AC607C60";
+final privateKey = "your private key here";
+var url = "alchemy rpc url";
+var socketUrl = "alchemy web socket url";
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+- Try to use same variable name of as shown above to avoid syntax errors
+
+
+- Give your feedback and suggestion to improve this app
+
+
