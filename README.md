@@ -1,5 +1,7 @@
 # file_minting_app
 
+## This app lets you select any file, computes its sha256 hash and by using smart contract, mints it against your wallet address, also shows you the hashes of files you minted, on home screen
+
 - To use this app you need to use your own Metamask wallet's private key, alchemy's rpc url (known as http url) and web socket url (select rinkeyby in alchemy and copy these urls)
 -   
 -   
