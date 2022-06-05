@@ -3,7 +3,7 @@
 - To use this app you need to use your own Metamask wallet's private key, alchemy's rpc url (known as http url) and web socket url (select rinkeyby in alchemy and copy these urls)
 
 
-- The contract address is on rinkeby testnet and its address is
+- The contract is on rinkeby testnet and its address is
 0x5C27924B70F2Ae1252a5524feb1C81e2AC607C60
 
 
