@@ -17,6 +17,10 @@ var socketUrl = "alchemy web socket url";
 - Try to use same variable name of as shown above to avoid syntax errors
 
 
+- Also check out the smart contract repo used in this app
+https://github.com/iWOLFSTEIN/File-Minting-Smart-Contract
+
+
 - Give your feedback and suggestion to improve this app
 
 
