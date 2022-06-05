@@ -1,0 +1,71 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "walletAddress",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes32",
+        "name": "fileHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "mintSuccessful",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "isConnectionExtablished",
+    "outputs": [
+      {
+        "internalType": "bool",
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "walletAddress",
+        "type": "address"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "fileHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "mintFile",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "walletAddress",
+        "type": "address"
+      }
+    ],
+    "name": "myMintFiles",
+    "outputs": [
+      {
+        "internalType": "bytes32[]",
+        "name": "",
+        "type": "bytes32[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
