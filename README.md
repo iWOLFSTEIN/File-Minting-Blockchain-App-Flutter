@@ -4,7 +4,7 @@
 -   
 -   
 - The contract is on rinkeby testnet and its address is
-0x5C27924B70F2Ae1252a5524feb1C81e2AC607C60
+- 0x5C27924B70F2Ae1252a5524feb1C81e2AC607C60
 - 
 - 
 - First create a file with name 'private_keys.dart' in lib/Constants/ folder and place contract address, private key, rpc url adn web socket url as shown:
